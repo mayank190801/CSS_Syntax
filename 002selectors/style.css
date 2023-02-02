@@ -1,0 +1,36 @@
+* {
+  font-family: monospace;
+}
+
+html {
+  font-size: 25px;
+}
+
+body {
+  border: 3px solid black;
+}
+
+h1,
+h2 {
+  color: brown;
+}
+
+p span {
+  text-transform: uppercase;
+}
+
+h1 h2 {
+  color: blueviolet;
+}
+
+p {
+  color: green;
+}
+
+.gray {
+  color: red;
+}
+
+#second {
+  font-style: italic;
+}

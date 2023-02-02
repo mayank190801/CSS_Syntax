@@ -1,0 +1,10 @@
+--- SELECTORS ---
+- Rarely ID's should be used -- in css
+- h1, h2  --- this applies to all h1 and h2
+- h1 h2 --- this applies to all h2 inside h1
+- classes help in giving us more freedom specifity -- (prefer more)
+- * { }  -- selects all the elements 
+- Works like a waterfall -- css basically works on inheritance + the last rule is applied 
+- Not everything is inherited -- font rules are inherited, but so are border and all are not applied
+- forms elements do not inherit font -- (font : inherit) specially alloted
+- id > class > element (SPECIFITY)
