@@ -8,3 +8,11 @@
 - Not everything is inherited -- font rules are inherited, but so are border and all are not applied
 - forms elements do not inherit font -- (font : inherit) specially alloted
 - id > class > element (SPECIFITY)
+
+--- COLORS ---
+- background : blueviolet
+- color : red
+- color : rgba(0,0,0,1)
+- color : #ffffff 
+- coolor website for color palletes -- (color contrast checker)
+
