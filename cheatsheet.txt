@@ -1,3 +1,4 @@
+------------------------ CSS CHEATSHEET ------------------------
 --- SELECTORS ---
 - Rarely ID's should be used -- in css
 - h1, h2  --- this applies to all h1 and h2
@@ -16,9 +17,30 @@
 - color : #ffffff 
 - coolor website for color palletes -- (color contrast checker)
 
---- UNITS  --- 
+--- UNITS  ---  
+- always reset the settings for the win
 - rem -- (root element font-size) ie. it basically compares with root level only 
 - em -- (depend on the parent font-size tho)
+- % -- (works in percentage)
+- vh, vw -- (a lil complicated)
+- font-size should be 'rem' based, rest all you can do with 'em' stuff
+- margin: 3rem auto; -- (to center it horizontally)
+
+
+
+
+
+--- Shortcut --- 
+- margin 1.5em 2em 3em 4em; -- (TLBR - top left bottom right)
+- border : 2px dashed red
+- border-top : 2px dashed yellow
+- border- right : 2px dashed green
+- border-top-width, style, color more settings
+- border : 2px outset red, and so on -- a lot of values are there
+- outline : 5px solid purple  (it takes up no space brother)
+- outline-offset : 5px (how far we want the offset from our borders)
+- border-radius : 20px
+
 
 
 
