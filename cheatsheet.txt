@@ -72,6 +72,9 @@ decimal-leading-zero, disc, cirlce, upper-roman
 - <ol start="3" reverse>  (some pretty cool stuff)
 - <li value="2">g</li> (rarely used bruh)
 
+--- PROJECT ---  
+- li a { display : block }  (this is crazy feature, it lets me change the hover color for the entire block it is present it!!!)
+- above is super cool learning
 
 
 
