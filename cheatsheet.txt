@@ -16,3 +16,9 @@
 - color : #ffffff 
 - coolor website for color palletes -- (color contrast checker)
 
+--- UNITS  --- 
+- rem -- (root element font-size) ie. it basically compares with root level only 
+- em -- (depend on the parent font-size tho)
+
+
+
