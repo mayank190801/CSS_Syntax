@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 5% 10%;
+  font-size: 2rem;
+  font-family: sans-serif;
+}
+
+ol {
+  list-style-type: lower-alpha;
+  padding: 0;
+}
+
+ul {
+  list-style-type: square;
+}
+
+ul li:nth-child(3) {
+  color: red;
+}
+
+::marker {
+  color: blue;
+}

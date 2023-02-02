@@ -59,6 +59,20 @@
 - a:focus (for blind people) can be combined with background-color (pretty cool)
 - opacity : 0-1 (little bit of transparency when you move cursor over)
 
+--- LIST STYLE ---  
+- list-style-type : none, lower-alpha, georgian, decimal, 
+decimal-leading-zero, disc, cirlce, upper-roman
+- padding : 0
+- text-align : center
+- list-style-position : inside, outside (pretty crucial as well)
+- list-style-image : url('../') (in png format would be great)
+- ul li:nth-child(2)  (to target only that element in list)
+- ::marker (for targetting the bullets and not text)
+- content : "someting" (inside ::marker you can specify this)
+- <ol start="3" reverse>  (some pretty cool stuff)
+- <li value="2">g</li> (rarely used bruh)
+
+
 
 
 
