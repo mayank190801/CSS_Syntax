@@ -26,11 +26,7 @@
 - font-size should be 'rem' based, rest all you can do with 'em' stuff
 - margin: 3rem auto; -- (to center it horizontally)
 
-
-
-
-
---- Shortcut --- 
+--- BOX MODEL --- 
 - margin 1.5em 2em 3em 4em; -- (TLBR - top left bottom right)
 - border : 2px dashed red
 - border-top : 2px dashed yellow
@@ -40,6 +36,25 @@
 - outline : 5px solid purple  (it takes up no space brother)
 - outline-offset : 5px (how far we want the offset from our borders)
 - border-radius : 20px
+
+--- TYPOGRAPHY  ---  
+- text-decoration : underline, overline, line-through, none 
+- font-size : inherit   ( for forms and stuff )
+- text-transform : capitalize, lowercase, uppercase
+- text-align : justify, right, left
+- text-indent : 2em   (indents the first line)
+- text- ( for looking up at more text properties )
+- line-height : 1.5
+- letter-spacing : 1em
+- word-spacing : 2em
+- font-weight : 400
+- font-style : italic, oblique, normal
+- font-family : serif, sans-serif, monospace, cursive, fantasy, Arial, Verdana, Times New Roman
+- @import url() in your css only 
+
+
+
+
 
 
 
