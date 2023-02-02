@@ -22,7 +22,7 @@ button {
   width: 400px;
   padding: 1rem;
 
-  outline: 5px double grey;
+  outline: 5px double purple;
   outline-offset: 10px;
 }
 
@@ -37,4 +37,18 @@ button {
 
 a {
   text-decoration: none;
+  cursor: pointer;
+  color: gray;
+}
+
+a:visited {
+  color: blue;
+}
+
+a:hover {
+  color: black;
+}
+
+a:active {
+  color: green;
 }

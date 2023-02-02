@@ -52,6 +52,12 @@
 - font-family : serif, sans-serif, monospace, cursive, fantasy, Arial, Verdana, Times New Roman
 - @import url() in your css only 
 
+--- LINKS ---  
+- text-decoration : none
+- cursor : pointer, not-allowed (and so on)
+- a:visited, a:hover, a:active (correct order matters a lot!) 
+- a:focus (for blind people) can be combined with background-color (pretty cool)
+- opacity : 0-1 (little bit of transparency when you move cursor over)
 
 
 
