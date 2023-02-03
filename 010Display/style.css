@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+kalsjdfl body {
+  text-align: center;
+  font-family: monospace;
+}
+
+nav {
+  width: 80%;
+  margin: 5rem auto 0;
+  border-radius: 1rem;
+  line-height: 2;
+}
+
+ul {
+  border-radius: inherit;
+  border: black 2px dashed;
+  border-top: none;
+  background-color: yellow;
+}
+
+li {
+  font-size: 2rem;
+  list-style-type: none;
+  border: black 1px dashed;
+}
+
+h2 {
+  font-size: 3rem;
+  background-color: pink;
+  padding: 1rem;
+  border: 4px red dashed;
+  border-radius: 1rem;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+}
+
+a:visited {
+  color: black;
+}
+
+li a:hover,
+li a:focus {
+  background-color: red;
+  color: white;
+}
