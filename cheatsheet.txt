@@ -76,7 +76,11 @@ decimal-leading-zero, disc, cirlce, upper-roman
 - li a { display : block }  (this is crazy feature, it lets me change the hover color for the entire block it is present it!!!)
 - above is super cool learning
 
-
+--- DISPLAY --- 
+- block, inline, inline-block, none
+- block is stacked on one another simply, inline is having the least properties
+- inline-block is a hybrid of both the worlds! margin and shit works pretty well
+- none removes it from the page!!! how super cool is that
 
 
 
