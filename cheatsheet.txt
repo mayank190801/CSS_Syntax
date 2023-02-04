@@ -80,8 +80,24 @@ decimal-leading-zero, disc, cirlce, upper-roman
 - block, inline, inline-block, none
 - block is stacked on one another simply, inline is having the least properties
 - inline-block is a hybrid of both the worlds! margin and shit works pretty well
-- none removes it from the page!!! how super cool is that
+- none removes it from the page!!!  how super cool is that
 
+--- FLOAT ---   (didn't find it pretty cool)
+- float : left, right or something so that text can wrap around it
+- display : flow-root , if it is present inside some div or so 
+- only used for wrapping text around image, simple as that 
+
+--- COLUMNS ---  (nope)
+- column-count : 4
+- column-width : 250px
+- column-rule : 3px solid #333
+- column-gap : 3rem
+
+--- Position ---  
+
+
+
+  
 
 
 
