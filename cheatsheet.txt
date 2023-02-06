@@ -94,7 +94,17 @@ decimal-leading-zero, disc, cirlce, upper-roman
 - column-gap : 3rem
 
 --- Position ---  
-
+- position : static  (default value)
+- position : absolute (doesnt change anything) -- (you have to set values)
+- position : absolute ,top : 0 -- and now it will change a lot of values
+- basically absolute position looks for a (closest) relative parent, it not found it would go to DOM container simple 
+- position : relative (to use absolute for children classes)
+- If we change top and bottom for relative box, then it doesn't require for the parent to have position: relative , it will automaticallly be relative to it.
+- position : fixed (just fixed!! No care about any relative box bruh!!!) 
+- z-index : 1; (default value is 0, but if we give it higher value, it will be on top of other blocks)
+- position : sticky (is umm it get sticks at some point of scrolling or something)
+- Have to figure these out in much more depth for sure -- to get better at them
+- scroll-behaviour - smooth  (PRETTY DOPE PROPERTY!!!!) - when you click links inside page, it will give a smooth little scroll to us for sure
 
 
   
