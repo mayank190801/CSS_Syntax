@@ -106,9 +106,24 @@ decimal-leading-zero, disc, cirlce, upper-roman
 - Have to figure these out in much more depth for sure -- to get better at them
 - scroll-behaviour - smooth  (PRETTY DOPE PROPERTY!!!!) - when you click links inside page, it will give a smooth little scroll to us for sure
 
-
-  
-
-
-
-
+--- Flex Box ---  
+- display : flex --starting on the container box
+- flex-direction : column, row, row-reverse, column-reverse -- for changing the main axis direction we can use this property
+- justify-content : flex-start, flex-end, center, space-between, space-around, space-evenly  
+- justify content basically works for the main axis, how we have to adjust based on that
+- align-items : flex-start, flex-end, center, baseline (and many more to figure out s)
+- baseline properties aligns the content of the boxes 
+- align items basically works for the cross axis, both are pretty helpful if you think about it 
+- flex-wrap : wrap, nowrap, wrap-reverse -- now inner boxes can go to next row and live inside there peacefully
+- align-content : (all prop of justify-content) -- when the items are starting to wrap and go into mulitple rows, then it becomes content, and align-items won't work anymore, so use this bad boi
+- gap : 1em -- gives some gap between boxes (more like margin maybe)
+- flex-grow : 1 -- this is a child property and basically how it works is 
+- So if there is some extra space left on the major axis, then that is divided among all the children on the basis of this property - (all can have flex grow 1 and 
+-one can have flex grow 2, so it will take twice more extra space than anyone else)
+- flex-shrink : 0/1 -- child property -- basically if 0, then no shrinkage, if 1 fastest shrinkage then others
+- so there is what happens, sometimes a box have min and max width, so it shrinks according to space, that's when above property can come handy
+- flex-basis : 300px -- child propery -- you can set the width and override the one set before 
+- align-self : center, flex-start, flex-end, baseline -- overriding the align properties of container
+- order : -1 (default value - 0)-- child property -- changing the order in which they appear! (simple as that) -- Don't use until extremely needed
+- you can use flexbox to align content inside boxes as well if you want to
+- flex-flow : flex-direction flex-wrap -- this can be used to give two properties at once, pretty simple for sure

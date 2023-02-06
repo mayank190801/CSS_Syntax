@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80vw;
+  margin: 20px auto;
+  height: 1000px;
+  background-color: yellow;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.full {
+  width: 200px;
+  height: 200px;
+
+  background-color: aqua;
+  border: 1px dashed black;
+  font-size: 3rem;
+  font-family: monospace;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
